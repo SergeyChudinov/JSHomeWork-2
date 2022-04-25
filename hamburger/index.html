@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+
+</head>
+
+<body>
+    <h1>Бургер</h1>
+    <h3>Размер бургера</h3>
+    <label for="sizeBurger">
+        <input type="checkbox" id="sizeBurger" data-price="50" data-calories="20" class = "menu">Маленький
+        <input type="checkbox" id="sizeBurger" data-price="100" data-calories="40" class = "menu">Большой
+    </label>
+    <!-- <select name="" id="sizeBurger">
+        <option value="small" data-price="50" data-calories="20" class = "menu">Маленький</option>
+        <option value="big" data-price="100" data-calories="40" class = "menu">Большой</option>
+    </select> -->
+    <h3>Начинка бургера</h3>
+    <label for="stuffing">
+        <input type="checkbox" id="stuffing" data-price="10" data-calories="20" class = "menu">Сыр
+        <input type="checkbox" id="stuffing" data-price="20" data-calories="5" class = "menu">Салат
+        <input type="checkbox" id="stuffing" data-price="15" data-calories="10" class = "menu">Картофель
+    </label>
+    <!-- <select name="" id="stuffing">
+        <option value="cheese" checked data-price="10" data-calories="20" class = "menu">С сыром</option>
+        <option value="salad" checked data-price="20" data-calories="5" class = "menu">С салатом</option>
+        <option value="potato" checked data-price="15" data-calories="10" class = "menu">С картофелем</option>
+    </select> -->
+    <h3>Дополнительно</h3>
+    <label for="extra">
+        <input type="checkbox" id="extra" data-price="15" data-calories="0" class = "menu">Приправа
+        <input type="checkbox" id="extra" data-price="20" data-calories="5" class = "menu">Майонез
+    </label>
+    <h3>Итоги</h3>
+    <p>Калорийность: <span class="calories"></span></p>
+    <p>Цена: <span class="price"></span></p>
+    <button>Рассчитать</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
